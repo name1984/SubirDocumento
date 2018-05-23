@@ -1,0 +1,6 @@
+return '<img src="'||apex_util.get_blob_file_src('P6_PRODUCT_IMAGE',:P6_PRODUCT_ID)||'" />';
+
+http://192.170.100.43:7778/pls/apex/apex_util.get_blob_file?a=104&s=598917711117611&p=6&d=964333269804688875&i=665177167091095539&p_pk1=8&p_pk2=&p_ck=F4F626A17D02DC163072BB16512BE945&p_content_disposition=attachment
+
+
+http://192.170.100.43:7778/pls/apex/apex_util.get_blob_file?a=117&s=3904228927792154&p=10&d=3345623882692982&i=3345308816692982&p_pk1=12&p_pk2=&p_ck=7062B963169BD5DA566C62D22B5064B3&p_content_disposition=attachment

@@ -1,0 +1,78 @@
+body {
+	margin: 0px; 
+	padding: 0px; 
+	font-size: 70%; 
+	font-family: "Arial", Tahoma, Sans-Serif;
+	background: #D8D8D8;
+	color: #000;
+}
+h1 { 
+	padding: 0px 0px 22px 0px; 
+	text-align:center;
+	font-size: 1.4em;
+	color: #F5FBEF; 
+}
+#wrap {
+	margin: 0px auto; 
+	padding: 0px; 
+	width: 691px; 
+	
+}
+
+#container { 
+	float: left; 
+	margin: 30px; 
+	padding: 0px; 
+	width: 780px; 
+	background: url("extremos_plantilla1.png") repeat-y top left;
+}
+#header { 
+	//margin: 30px; 
+	padding: 55px 0 0 0px; 
+	background-color: inherit;
+	background-image: url("header_plantilla2.png");
+	background-repeat: no-repeat; 
+	height: 70px; 
+	color: #919FAE;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+#left_column {
+	float: left;
+	margin: 0px 0px 0px 18px;
+	width: 160px;
+}
+#right_column {
+	float: left;
+	width: 505px;
+	margin: 0px 15px 0px 0px;
+	padding: 0px;
+ }
+.left { 
+	
+	width: 44%;  
+	float: left; 
+	background: #eee url("greybg.gif") repeat-x top left; 
+	padding: 5px;
+	color: #808080; 
+}
+.right {  
+	float: left; 
+	width: 44%; 
+	background: #FDF7DF url("yellowbg.gif") repeat-x top left; 
+	border-left: 2px solid #FFF; 
+	padding: 5px; 
+	color: #808080;
+}
+#footer { 
+	float: left; 
+	//margin: 0px 0px 20px 0px; 
+	padding: 15px 0px 0px 0px; 
+	width: 700px; 
+	background-color: inherit;
+	background-image: url("footer_plantilla2.png");
+	background-repeat: no-repeat; 
+	text-align: center; 
+	color: #919FAE; 
+}
+
